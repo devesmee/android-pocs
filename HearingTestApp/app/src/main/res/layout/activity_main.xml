@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        style="@style/Header">
+
+        <ImageView
+            android:id="@+id/imageView"
+            app:srcCompat="@mipmap/schoonenberg_logo"
+            style="@style/Header.image"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/TVStart"
+        android:textColor="@color/SchoonenbergBlue"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/btnStartTest"
+        style="@style/MenuButton"
+        android:text="@string/start_test" />
+
+    <Button
+        android:id="@+id/btnQuestions"
+        android:text="@string/questionnaire"
+        style="@style/MenuButton"/>
+
+    <Button
+        android:id="@+id/btnTest"
+        android:text="@string/test"
+        style="@style/MenuButton"/>
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:text="@string/record"
+        style="@style/MenuButton"/>
+
+    <Button
+        android:id="@+id/btnPreview"
+        android:text="@string/preview"
+        style="@style/MenuButton"/>
+
+</LinearLayout>

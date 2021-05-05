@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Buttons -->
+    <style name="MenuButton">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">65dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="MenuButton.start">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+    <style name="BackButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="NextButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <!-- Schoonenberg header -->
+
+    <style name="Header.image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/SchoonenbergGreen</item>
+    </style>
+
+    <!-- Questionnaire -->
+    <style name="RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">50dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

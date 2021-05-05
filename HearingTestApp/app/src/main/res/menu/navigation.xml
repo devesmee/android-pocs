@@ -1,0 +1,9 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_back"
+        android:title="@string/back"/>
+    <item
+        android:id="@+id/navigation_next"
+        android:title="@string/next"/>
+</menu>

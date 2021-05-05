@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Hear Better</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_equalizer">Equalizer</string>
+    <string name="enabled">Enabled</string>
+    <string name="flat">Flat</string>
+    <string name="bass_boost">Bass Boost</string>
+    <string name="TVStart">What would you like to do?</string>
+    <string name="questionnaire">Questionnaire</string>
+    <string name="test">Test</string>
+    <string name="record">Record</string>
+    <string name="preview">Preview</string>
+    <string name="beforewestart">Before we start..</string>
+    <string name="useearbuds">Please use earbuds or \n headphones for this \n test</string>
+    <string name="putvolume">Put the volume on 50%</string>
+    <string name="makesure">Make sure you\'re in a \n quiet environment</string>
+    <string name="youranswers">Your answers will only \n be viewed by \n Schoonenberg \n employees</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sometimes">Sometimes</string>
+
+    <!-- Buttons -->
+    <string name="menu">Menu</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="finish">Finish</string>
+
+    <!-- WelcomeActivity  -->
+    <string name="welcome">Welcome!</string>
+    <string name="welcomeText">Welcome to the Schoonenberg Hearing \n App. You can use this app
+        to help us determine your hearing problems. All of \n your answers will only be viewed by
+        Schoonenberg employees. \n\n We will introduce you to the app by showing you a short walkthrough.</string>
+
+    <!-- QuestionsActivity -->
+    <string name="instructionQuestionnaire1">We would like to ask you \n some questions that will be \n
+        used in order to store \n your information.</string>
+    <string name="privacyNotice">The answers will only be \n viewed by Schoonenberg \n employees.</string>
+    <string name="question1">What is your name?</string>
+    <string name="question2">What is your age?</string>
+    <string name="question3">Do you hear high tones in your ear?</string>
+    <string name="always">Always</string>
+    <string name="never">Never</string>
+    <string name="question4">Why do you need a hearing aid?</string>
+    <string name="question4Answer1">Medical reasons</string>
+    <string name="question4Answer2">Personal reasons</string>
+    <string name="question4Answer3">Other:</string>
+    <string name="satisfied">Satisfied?</string>
+    <string name="instructionSatisfied">If you are satisfied with your answers \n please click Finish. \n \n
+        If not, you can go back to change \n your answers. Please remember \n that you can always go back \n once you click Finish.</string>
+
+    <!-- TestActivity -->
+    <!-- instructions -->
+    <string name="useInfo">Please use earbuds or\n headphones for this test</string>
+    <string name="volumeSetting">Put the volume on 50%</string>
+    <string name="quietEnvironment">Make sure you are in a quiet \n environment</string>
+    <string name="beforeTest">Before we start..</string>
+    <string name="whatearphones">What kind of earphones/headphones \n are you using?</string>
+    <string name="phoneEarbuds">Phone earbuds</string>
+    <string name="beatsheadphones">Beats</string>
+    <string name="jbl">JBL</string>
+    <string name="sony">Sony</string>
+    <string name="testinstructions">Use the + and - buttons to adjust \n the volume
+    so you can just about \n hear the tone</string>
+
+    <!-- PreviewActivity -->
+    <string name="instructionPreview1">We will give you a preview what \nyour recordings will sound like \n based on
+        the hearing test you took. \n \n You can choose any recording \n you want from the list on the next screen.
+        \n \n After you have listened we will \n ask you for your opinion.</string>
+    <string name="originalRecording">Original Recording</string>
+    <string name="modifiedRecording">Modified Recording</string>
+    <string name="visitStore">Visit the store!</string>
+    <string name="website">Website</string>
+    <string name="visitInstruction">In order to give you the best \n professional advice, we would like \n to
+        invite you to visit \n one of our stores. \n \n When you click website you will be \n redirected to
+        our website \n where you can find the store closest \n to you and make \n an appointment."</string>
+
+    <!-- RecordActivity -->
+    <string name="instructionRecord">We would like to ask you about \n the things you would like \n to hear better.
+        \n \n Please record your situation \n in any moment you have \n difficulty hearing. \n \n After you have recorded, \n
+        some additional questions \n about the situation will be asked. \n \n Your recordings will only be heard \n by Schoonenberg employees.</string>
+    <string name="recordInstruction">"Please record a situation in which you have problems hearing</string>
+    <string name="recordingQuestionTitle">Some questions about your recorded situation</string>
+    <string name="recordingQuestion1">In which location/situation was this recorded?</string>
+    <string name="recordingQuestion2">Can you describe the situation?</string>
+    <string name="recordingQuestion3">How often are you in this situation?</string>
+    <string name="recordingQuestion4">How important is this situation for you?</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="veryImportant">Very important</string>
+    <string name="important">Important</string>
+    <string name="notImportant">Not important</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Scarlett">Scarlett HP60</string>
+    <string name="start_test">Start Test</string>
+</resources>

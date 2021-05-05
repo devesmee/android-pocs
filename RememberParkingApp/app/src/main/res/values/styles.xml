@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brilliantAzure</item>
+        <item name="colorPrimaryDark">@color/brilliantAzure</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- **************** FONTS **************** // -->
+    <style name="headingFont">
+        <item name="android:fontFamily">@font/headingfont</item>
+    </style>
+
+    <style name="logoFont">
+        <item name="android:fontFamily">@font/logofont</item>
+    </style>
+
+    <!-- **************** BUTTONS **************** // -->
+    <style name="buttonAndroid">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- *************** PROFILE PAGE *************** // -->
+    <style name="progressLines">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="progressBoxes">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:background">@color/brilliantAzure</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="textProgressBoxes">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textProgressBoxes.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- **************** NAVIGATION **************** // -->
+    <style name="navigationButtons">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+
+</resources>

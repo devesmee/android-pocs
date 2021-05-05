@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="75dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/businessman" />
+
+            <TextView
+                android:id="@+id/nameUser"
+                style="@style/headingFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/usernameProfile" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="111"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/progressBoxes">
+
+                <TextView
+                    style="@style/textProgressBoxes.bold"
+                    android:id="@+id/dailyGoal"
+                    android:text="@string/dailyGoal" />
+
+
+                <TextView
+                    style="@style/textProgressBoxes"
+                    android:id="@+id/dailyGoalText"
+                    android:text="@string/dailyGoalTitle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/progressBoxes">
+
+                <TextView
+                    style="@style/textProgressBoxes.bold"
+                    android:id="@+id/currentSteps"
+                    android:text="@string/dailyCurrentSteps" />
+
+                <TextView
+                    style="@style/textProgressBoxes"
+                    android:id="@+id/currentStepsText"
+                    android:text="@string/dailyCurrentStepsTitle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/progressBoxes">
+
+                <TextView
+                    style="@style/textProgressBoxes.bold"
+                    android:id="@+id/caloriesBurned"
+                    android:text="@string/dailyCalories" />
+
+                <TextView
+                    style="@style/textProgressBoxes"
+                    android:id="@+id/caloriesBurnedText"
+                    android:text="@string/dailyCaloriesTitle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weeklyStatsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weeklyStatsTitle" />
+
+            <LinearLayout
+                style="@style/progressLines">
+
+                <LinearLayout
+                    style="@style/progressBoxes"
+                    android:layout_marginStart="0dp">
+
+                    <TextView
+                        style="@style/textProgressBoxes.bold"
+                        android:id="@+id/weeklySteps"
+                        android:text="@string/weeklySteps" />
+
+                    <TextView
+                        style="@style/textProgressBoxes"
+                        android:id="@+id/weeklyStepsTitle"
+                        android:text="@string/weeklyStepsTitle" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/progressBoxes">
+
+                    <TextView
+                        style="@style/textProgressBoxes.bold"
+                        android:id="@+id/weeklyCalories"
+                        android:text="@string/weeklyCalories" />
+
+                    <TextView
+                        style="@style/textProgressBoxes"
+                        android:id="@+id/weeklyCaloriesTitle"
+                        android:text="@string/weeklyCaloriesTitle" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/progressBoxes">
+
+                    <TextView
+                        style="@style/textProgressBoxes.bold"
+                        android:id="@+id/weeklyStreakNumber"
+                        android:text="@string/weeklyStreak" />
+
+                    <TextView
+                        style="@style/textProgressBoxes"
+                        android:id="@+id/weeklyStreakTitle"
+                        android:text="@string/weeklyStreakTitle" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/MonthlyStatsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/monthlyStatsTitle" />
+
+            <LinearLayout
+                style="@style/progressLines">
+
+                <LinearLayout
+                    style="@style/progressBoxes"
+                    android:layout_marginStart="0dp">
+
+                    <TextView
+                        style="@style/textProgressBoxes.bold"
+                        android:id="@+id/monthlySteps"
+                        android:text="@string/monthlySteps" />
+
+                    <TextView
+                        style="@style/textProgressBoxes"
+                        android:id="@+id/monthlyStepsTitle"
+                        android:text="@string/monthlyStepsTitle" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/progressBoxes">
+
+                    <TextView
+                        style="@style/textProgressBoxes.bold"
+                        android:id="@+id/monthlyCalories"
+                        android:text="@string/monthlyCalories" />
+
+                    <TextView
+                        style="@style/textProgressBoxes"
+                        android:id="@+id/monthlyCaloriesTitle"
+                        android:text="@string/monthlyCaloriesTitle" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/progressBoxes">
+
+                    <TextView
+                        style="@style/textProgressBoxes.bold"
+                        android:id="@+id/montlyStreakNumber"
+                        android:text="@string/monthlyStreak" />
+
+                    <TextView
+                        style="@style/textProgressBoxes"
+                        android:id="@+id/monthlyStreakTitle"
+                        android:text="@string/monthlyStreakTitle" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/AlltimeStatsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alltimeStatsTitle" />
+
+            <LinearLayout
+                style="@style/progressLines">
+
+                <LinearLayout
+                    style="@style/progressBoxes"
+                    android:layout_marginStart="0dp">
+
+                    <TextView
+                        style="@style/textProgressBoxes.bold"
+                        android:id="@+id/alltimeSteps"
+                        android:text="@string/alltimeSteps" />
+
+                    <TextView
+                        style="@style/textProgressBoxes"
+                        android:id="@+id/alltimeStepsTitle"
+                        android:text="@string/alltimeStepsTitle" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/progressBoxes">
+
+                    <TextView
+                        style="@style/textProgressBoxes.bold"
+                        android:id="@+id/alltimeCalories"
+                        android:text="@string/alltimeCalories" />
+
+                    <TextView
+                        style="@style/textProgressBoxes"
+                        android:id="@+id/alltimeCaloriesTitle"
+                        android:text="@string/alltimeCaloriesTitle" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/progressBoxes">
+
+                    <TextView
+                        style="@style/textProgressBoxes.bold"
+                        android:id="@+id/alltimeStreakNumber"
+                        android:text="@string/alltimeStreak" />
+
+                    <TextView
+                        style="@style/textProgressBoxes"
+                        android:id="@+id/alltimeStreakTitle"
+                        android:text="@string/alltimeStreakTitle" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <include
+                android:id="@+id/container_header_lyt"
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                layout="@layout/activity_bottomnavigationfinal"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

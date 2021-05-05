@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hearbetter">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VisitStore"></activity>
+        <activity android:name=".RecordingQuestions" />
+        <activity android:name=".InstructionRecord" />
+        <activity android:name=".InstructionPreview" />
+        <activity android:name=".PreviewActivity" />
+        <activity android:name=".WelcomeActivity" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".QuestionnaireActivity" />
+        <activity android:name=".RecordActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".QuestionsPreviewActivity" />
+        <activity android:name=".ResultRecordActivity" />
+        <activity android:name=".Recording_List_Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

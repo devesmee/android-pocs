@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FHICT-Companion</string>
+    <!-- FONTYS PEOPLE -->
+    <string name="title_people">People</string>
+    <string name="nameTitle">Name:</string>
+    <string name="departmentTitle">Department:</string>
+    <string name="emailTitle">E-mail:</string>
+    <!-- FONTYS BUILDINGS -->
+    <string name="title_buildings">Buildings</string>
+    <string name="idBuildingTitle">ID:</string>
+    <string name="nameBuildingTitle">Name:</string>
+    <string name="cityBuildingTitle">City:</string>
+    <!-- LOCAL JSON -->
+    <string name="classTitle">Class:</string>
+    <string name="roomTitle">Room:</string>
+    <string name="subjectTitle">Subject:</string>
+    <string name="teacherTitle">Teacher:</string>
+</resources>

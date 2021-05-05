@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="achievements">
+        <item >First goal reached!</item>
+        <item >Second goal reached!</item>
+        <item >Achievement</item>
+        <item >Achievement</item>
+        <item >Achievement</item>
+    </string-array>
+</resources>

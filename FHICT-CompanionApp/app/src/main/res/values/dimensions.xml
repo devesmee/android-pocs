@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TOOLBAR -->
+    <dimen name="notification_button_margin_end">20dp</dimen>
+    <!-- CARD -->
+    <dimen name="card_margin_sides">16dp</dimen>
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_margin_top">90dp</dimen>
+</resources>

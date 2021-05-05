@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordingQuestions">
+
+    <LinearLayout
+        style="@style/Header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/Header.image"
+            app:srcCompat="@mipmap/schoonenberg_logo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textQuestionRecordingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/recordingQuestionTitle"
+            android:textColor="@color/SchoonenbergBlue"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textQuestionRecording1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/recordingQuestion1"
+            android:textColor="@color/SchoonenbergBlue"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ET_Situation"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textQuestionRecording2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/recordingQuestion2"
+            android:textColor="@color/SchoonenbergBlue"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ET_Description"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textQuestionRecording3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/recordingQuestion3"
+            android:textColor="@color/SchoonenbergBlue"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonDaily"
+                android:text="@string/daily"
+                style="@style/RadioButton"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonWeekly"
+                android:text="@string/weekly"
+                style="@style/RadioButton"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonMonthly"
+                android:text="@string/monthly"
+                style="@style/RadioButton"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textQuestionRecording4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/recordingQuestion4"
+            android:textColor="@color/SchoonenbergBlue"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonVeryImportant"
+                android:text="@string/veryImportant"
+                style="@style/RadioButton"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonImportant"
+                android:text="@string/important"
+                style="@style/RadioButton"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonNotImportant"
+                android:text="@string/notImportant"
+                style="@style/RadioButton"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:text="@string/back"
+            style="@style/BackButton"/>
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:text="@string/finish"
+            style="@style/NextButton" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

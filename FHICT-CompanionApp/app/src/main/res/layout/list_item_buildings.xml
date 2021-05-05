@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/building_list_item">
+
+    <TextView
+        android:id="@+id/idBuildingTitle"
+        style="@style/List_Item_String"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/idBuildingTitle"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/idBuilding"
+        style="@style/List_Item_String"
+        app:layout_constraintStart_toEndOf="@id/idBuildingTitle"
+        app:layout_constraintTop_toTopOf="@id/idBuildingTitle"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:id="@+id/nameBuildingTitle"
+        style="@style/List_Item_String"
+        app:layout_constraintStart_toStartOf="@id/idBuildingTitle"
+        app:layout_constraintTop_toBottomOf="@id/idBuildingTitle"
+        android:text="@string/nameBuildingTitle"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/nameBuilding"
+        style="@style/List_Item_String"
+        app:layout_constraintStart_toEndOf="@id/nameBuildingTitle"
+        app:layout_constraintTop_toTopOf="@id/nameBuildingTitle"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:id="@+id/cityBuildingTitle"
+        style="@style/List_Item_String"
+        app:layout_constraintStart_toStartOf="@id/nameBuildingTitle"
+        app:layout_constraintTop_toBottomOf="@id/nameBuildingTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/cityBuildingTitle"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/cityBuilding"
+        style="@style/List_Item_String"
+        app:layout_constraintStart_toEndOf="@id/cityBuildingTitle"
+        app:layout_constraintTop_toTopOf="@id/cityBuildingTitle"
+        android:layout_marginStart="5dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

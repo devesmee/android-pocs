@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".QuestionnaireFragments.QuestionEnding">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        style="@style/Header">
+
+        <ImageView
+            android:id="@+id/imageView"
+            app:srcCompat="@mipmap/schoonenberg_logo"
+            style="@style/Header.image"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/satisfied"
+            android:textColor="@color/SchoonenbergBlue"
+            android:textSize="35sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/instructionSatisfied"
+            android:textColor="@color/SchoonenbergBlue"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Loqate</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_registration">Registration</string>
+
+    <!-- LOGIN/REGISTER -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_repeat_password">Repeat password</string>
+    <string name="action_register">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="action_sign_in">Sign in</string>
+
+    <!-- **************** NAVIGATION **************** // -->
+    <string name="titleNavigation">Saved locations</string>
+    <string name="inputNavigation">Where do you want to go today?</string>
+    <string name="mostUsedLocations">Most used locations:</string>
+    <string name="destinationPreview">Preview destination:</string>
+    <string name="startNavigationButton">Start navigation</string>
+    <string name="infoNavigation">Park outside the radius to complete your daily goal</string>
+
+    <!-- DROP DOWN MENU ON NAVIGATION PAGE -->
+    <string name="location_prompt">Most used locations</string>
+    <string-array name="location_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>School</item>
+        <item>Parents</item>
+    </string-array>
+
+    <!-- **************** MAPS **************** // -->
+    <string name="saveLocationButton">Save location</string>
+    <string name="title_activity_bottom_nav_demo">bottomNavDemo</string>
+    <string name="title_activity_navigation_demo">navigationDemo</string>
+    <string name="title_activity_bottomnavigationfinal">bottomnavigationfinal</string>
+
+    <!-- **************** PROFILE **************** // -->
+    <string name="profileTitle">Profile</string>
+    <string name="usernameProfile">John Doe</string>
+    <!-- stats titles // -->
+    <string name="weeklyStatsTitle">Weekly stats</string>
+    <string name="monthlyStatsTitle">Monthly stats</string>
+    <string name="alltimeStatsTitle">All time stats</string>
+    <!-- daily stats info // -->
+    <string name="dailyGoal">5000</string>
+    <string name="dailyGoalTitle">Daily goal</string>
+    <string name="dailyCurrentSteps">7664</string>
+    <string name="dailyCurrentStepsTitle">Current steps</string>
+    <string name="dailyCalories">276</string>
+    <string name="dailyCaloriesTitle">Calories burned</string>
+    <!-- weekly stats info // -->
+    <string name="weeklySteps">32454</string>
+    <string name="weeklyStepsTitle">Total steps</string>
+    <string name="weeklyCalories">1134</string>
+    <string name="weeklyCaloriesTitle">Total calories</string>
+    <string name="weeklyStreak">5 days</string>
+    <string name="weeklyStreakTitle">Goal achieved</string>
+    <!-- monthly stats info // -->
+    <string name="monthlySteps">113452</string>
+    <string name="monthlyStepsTitle">Total steps</string>
+    <string name="monthlyCalories">3514</string>
+    <string name="monthlyCaloriesTitle">Total calories</string>
+    <string name="monthlyStreak">17 days</string>
+    <string name="monthlyStreakTitle">Goal achieved</string>
+    <!-- all time stats info // -->
+    <string name="alltimeSteps">286541</string>
+    <string name="alltimeStepsTitle">Total steps</string>
+    <string name="alltimeCalories">9051</string>
+    <string name="alltimeCaloriesTitle">Total calories</string>
+    <string name="alltimeStreak">42 days</string>
+    <string name="alltimeStreakTitle">Goal achieved</string>
+</resources>

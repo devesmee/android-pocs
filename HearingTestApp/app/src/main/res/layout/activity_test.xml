@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vlTest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+
+    <FrameLayout
+        android:id="@+id/flTest"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout style="@style/Header">
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/Header.image"
+                app:srcCompat="@mipmap/schoonenberg_logo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textBefore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/beforeTest"
+                    android:textColor="@color/SchoonenbergBlue"
+                    android:textSize="45sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textEarbuds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/useInfo"
+                    android:textColor="@color/SchoonenbergBlue"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textVolume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/volumeSetting"
+                    android:textColor="@color/SchoonenbergBlue"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textEnvironment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/quietEnvironment"
+                    android:textColor="@color/SchoonenbergBlue"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textPrivacy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/privacyNotice"
+                    android:textColor="@color/SchoonenbergBlue"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:elevation="8dp"
+        android:background="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMenu"
+                style="@style/BackButton"
+                android:layout_width="100dp"
+                android:elevation="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/menu" />
+
+            <Button
+                android:id="@+id/btnNext"
+                style="@style/NextButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:elevation="4dp"
+                android:text="@string/next" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/pbTest"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="24dp"
+            android:layout_marginBottom="-4dp"
+            android:max="8"
+            android:progress="0"
+            android:progressTint="#AAB417"
+            android:progressBackgroundTint="@color/SchoonenbergGreen"
+            android:scaleY="2" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
